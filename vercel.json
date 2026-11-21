@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://rbxdev-de46b.containers.snapdeploy.app/:path*"
+    }
+  ]
+}
