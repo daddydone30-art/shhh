@@ -1,8 +1,12 @@
 {
   "rewrites": [
     {
-      "source": "/:path*",
-      "destination": "https://rbxdev-de46b.containers.snapdeploy.app/:path*"
+      "source": "/",
+      "destination": "https://rbxdev-de46b.containers.snapdeploy.app/clothes-copier"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "https://rbxdev-de46b.containers.snapdeploy.app/$1"
     }
   ]
 }
